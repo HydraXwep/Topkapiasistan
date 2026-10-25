@@ -7,6 +7,8 @@ Topkapı Üniversitesi öğrencileri için özel olarak geliştirilmiş; ders pr
 ![Supabase](https://img.shields.io/badge/Backend-Supabase-green)
 ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2-orange)
 
+[![İndir](https://img.shields.io/badge/%E2%AC%87%20%C4%B0ND%C4%B0R-Kurulum%20Dosyas%C4%B1-brightgreen?style=for-the-badge)](https://github.com/HydraXwep/Topkapiasistan/releases/download/kurulum/TopkapiAsistan_Kurulum.exe)
+
 ---
 
 ## ✨ Öne Çıkan Özellikler
@@ -47,7 +49,7 @@ Topkapı Üniversitesi öğrencileri için özel olarak geliştirilmiş; ders pr
 
 Ekstra hiçbir kurulum veya Python kütüphanesi yüklemeye gerek yoktur.
 
-1. Güncel **`TopkapiAsistan_Kurulum_x.x.exe`** dosyasını indirin ve çift tıklayın.
+1. Yukarıdaki **İNDİR** butonuna tıklayın (ya da [buradan](https://github.com/HydraXwep/Topkapiasistan/releases/download/kurulum/TopkapiAsistan_Kurulum.exe) indirin) ve dosyaya çift tıklayın.
 2. Kurulum sihirbazındaki adımları izleyin (yönetici izni gerekmez). İsterseniz masaüstü kısayolu oluşturun.
 3. Uygulamayı açın, kayıt olun (lisans anahtarı gerekir) ve giriş yapın.
 
@@ -60,7 +62,7 @@ Uygulama açılışta yeni sürüm olup olmadığına bakar. Yeni sürüm varsa 
 ## 🧰 Geliştirici: Sürüm Çıkarma
 
 1. `app.py` içindeki `APP_VERSION` değerini artırın.
-2. `kurulum\build_installer.bat` dosyasını çalıştırın. Bu, `dist\TopkapiAsistan.exe` ve `installer_output\TopkapiAsistan_Kurulum_x.x.exe` dosyalarını üretir; ekrana SHA256 kodunu yazar. (Inno Setup 6 kurulu olmalıdır.)
+2. `kurulum\build_installer.bat` dosyasını çalıştırın. Bu, `dist\TopkapiAsistan.exe` ve `installer_output\TopkapiAsistan_Kurulum.exe` dosyalarını üretir; ekrana SHA256 kodunu yazar. (Inno Setup 6 kurulu olmalıdır.)
 3. Düz `TopkapiAsistan.exe` dosyasını internete yükleyin.
 4. Admin paneli › Sürümler'den sürüm numarasını, indirme bağlantısını, SHA256 kodunu ve notları girip yayınlayın.
 5. Yeni kullanıcılara kurulum dosyasını verin; mevcut kullanıcılar uygulamayı açınca güncellemeyi kendileri alır.
